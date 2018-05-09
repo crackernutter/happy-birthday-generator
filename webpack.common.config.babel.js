@@ -16,7 +16,7 @@ export default {
                 test: /\.css$/,
                 use: ['style-loader', 'css-loader']
             },
-            { test: /\.(png|woff|woff2|eot|gif|ttf|svg)$/, loader: 'url-loader?limit=100000' },
+            //{ test: /\.(png|woff|woff2|eot|gif|ttf|svg)$/, loader: 'url-loader?limit=100000' },
             { test: /\.(png|JPG|gif|jpg)$/, loader: "file-loader", options: {
                 name: '[path][name]-[hash:8].[ext]'
             }, }

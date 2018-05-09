@@ -3,6 +3,7 @@ const allFiles = (ctx => {
     let values = keys.map(ctx);
     return keys.reduce((o, k, i) => { o[k] = values[i]; return o; }, {});
 })(require.context('./images/', true, /.*/));
+console.log(allFiles);
 
 
 class PhotoSpinner {
