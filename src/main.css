@@ -1,0 +1,46 @@
+html, body  {
+    background: #222;
+    overflow: hidden;
+    margin: 0;
+  }
+  #container {
+    text-align: center;
+    position: relative;
+    z-index: 1;
+}
+.title-container {
+    position: absolute;
+    top: 0;
+    margin: 5% 0;
+    height: 100%;
+    width: 100%;
+    z-index: 0;
+}
+
+.title {
+    color: gray;
+    display: block;
+    max-width: 100%;
+    margin: 0 auto;
+    columns: #223;;
+    font-family: 'Bitter', serif;
+    text-align: center;
+    font-size: 50px;
+    font-size: 4.5vw;
+}
+.pic {
+    position: absolute;
+    top: 0;
+    margin: 5% 0;
+    height: 100%;
+    width: 100%;
+    z-index: 0;
+}
+.pic img {
+    display: block;
+    width: 500px;
+    height: auto;
+    margin: 0 auto;
+    border: 8px solid black;
+    margin-top: 8%;
+}
